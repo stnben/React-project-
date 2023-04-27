@@ -1,15 +1,17 @@
-import 
+import React from 'react';
+import './App.css';
 
-
-{
-    { 
-    <header class="bg-primary py-5">
-        <nav class="navbar navbar-expand-lg container">
-            <a class="navbar-brand text-white" href="#">Interview Bot</a>
+function App() {
+    return (
+        <>
+            {/*
+    <header className="bg-primary py-5">
+        <nav className="navbar navbar-expand-lg container">
+            <a className="navbar-brand text-white" href="#">Interview Bot</a>
         </nav>
     </header>
 
-    <section class="main-content">
+    <section className="main-content">
         <h1>Interview Bot</h1>
         <p>
             Welcome to the Interview Bot, your personal interview training platform. Improve your interview skills by practicing with our AI-powered bot, tailor the experience to your needs, and get personalized feedback on your performance.
@@ -17,9 +19,9 @@ import
         <a href="#preferences-form" class="get-started-btn">Get Started</a>
     </section>
 
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
+    <section className="container mt-5">
+        <div className="row">
+            <div className="col-md-6">
                 <div id="preferences-form">
                     <h2>Set your interview preferences</h2>
                     <form id="set-preferences">
@@ -27,7 +29,7 @@ import
                     </form>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
                 <div id="interview" style="display:none;">
                     <h2>Interview</h2>
                     <div id="messages"></div>
@@ -41,21 +43,21 @@ import
         </div>
     </section>
 
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
+    <section className="container mt-5">
+        <div className="row">
+            <div className="col-md-6">
                 <div id="preferences-form">
                     <h2>Set your interview preferences</h2>
                     <form id="set-preferences">
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="position">Position:</label>
                             <input type="text" id="position" name="position" class="form-control" required>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="num_questions">Number of questions:</label>
                             <input type="number" id="num_questions" name="num_questions" class="form-control" required>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="difficulty">Difficulty:</label>
                             <select id="difficulty" name="difficulty" class="form-control">
                                 <option>Easy</option>
@@ -63,7 +65,7 @@ import
                                 <option>Hard</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="category">Category:</label>
                             <select id="category" name="category" class="form-control">
                                 <option>None</option>
@@ -72,46 +74,46 @@ import
                                 <option>Situational</option>
                             </select>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="user_name">Name:</label>
                             <input type="text" id="user_name" name="user_name" class="form-control" required>
                         </div>
-                        <div class="form-group">
+                        <div className="form-group">
                             <label for="interview_duration">Interview Duration (minutes):</label>
                             <input type="number" id="interview_duration" name="interview_duration" class="form-control" required>
                         </div>
                         <button type="submit" class="btn btn-primary">Start Interview</button>
                     </form>
                 </div>
-            </div>
-            <div class="col-md-6">
+            </divName
+            <div className="col-md-6">
                 <div id="interview" style="display:none;">
                     <h2>Interview</h2>
                     <div id="messages"></div>
-                    <form id="send-message" class="mt-3">
-                        <div class="input-group">
-                            <input type="text" id="user-input" placeholder="Type your answer..." class="form-control" required>
-                                <div class="input-group-append">
-                                    <button type="submit" class="btn btn-primary">Send</button>
+                    <form id="send-message" className="mt-3">
+                        <div className="input-group">
+                            <input type="text" id="user-input" placeholder="Type your answer..." className="form-control" required>
+                                <div className="input-group-append">
+                                    <button type="submit" className="btn btn-primary">Send</button>
                                 </div>
                         </div>
                     </form>
-                    <button id="analyze-performance" class="btn btn-primary mt-3" style="display:none;">Analyze Performance</button>
+                    <button id="analyze-performance" className="btn btn-primary mt-3" style="display:none;">Analyze Performance</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-dark py-5 mt-5">
-        <div class="container text-white">
-            <div class="row">
-                <div class="col-md-4">
+    <footer className="bg-dark py-5 mt-5">
+        <div className="container text-white">
+            <div className="row">
+                <div className="col-md-4">
                     <!-- Add the first footer column content -->
-                </div>
-                <div class="col-md-4">
+                </divName
+                <div className="col-md-4">
                     <!-- Add the second footer column content -->
                 </div>
-                <div class="col-md-4">
+                <div className="col-md-4">
                     <!-- Add the third footer column content -->
                 </div>
             </div>
@@ -187,3 +189,9 @@ $("#send-message").on("submit", function (event) {
         }
     });
 });
+*/}
+        </>
+    );
+}
+
+export default App;
